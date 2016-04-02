@@ -1,0 +1,16 @@
+DIO:
+this module configures our microcolntroller pins direction ,values in both cases (Read/Write cases)
+enabling user to utilize these configuration in whatever applications he implements.
+it works only on atmega32 with 32 pins only
+ADC:
+this module helps user to read from analog channels either one channel or group of channels in microcontrollers enables and disables the ADC 
+component.
+it reads positive voltages only.
+LCD:
+this module enables user to configure the LCD 16*2 and to write a string on it 
+BUZZER:
+this module enablesuser for sending 1 to the buzzer through microcontroller to alarm that the temperature has risen than the threshold.
+it works only on 5v 
+T-SENSOR
+this module uses ADC to read positive voltages and turns them to positive temperature degrees so we can keep tracking the room temperature changes 
+it cant read excpet positive voltages ( positive temperatures)only.

@@ -1,0 +1,3 @@
+CP	R0,R1
+MOV	R0,R1
+MUL R0,R1

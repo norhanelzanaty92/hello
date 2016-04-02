@@ -1,0 +1,15 @@
+CP	R0 R1
+                                                                                           MOV	R0 R1
+                                                                                          MUL R0 R1
+                                                                                          SBI 0x1a 3
+                                                                                         OR R3 R4
+ 
+                                                                                         EOR R3 R4
+                                                                                          SBI  0x1a 3 
+                                                                                       CBI  0x14 2 
+                                                                                       ADC  R17 R18
+                                                                                       SUB  R19 R20
+                                                                                       SBIC 0x17 1
+                                                                                        SBIS 0x11 4
+                                                                                        SBIS 0x11 4
+                                                                                        
